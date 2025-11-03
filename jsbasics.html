@@ -4,51 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-        .container {
-            max-width: 600px;
-            margin: auto;
-        }
-        h1 {
-            text-align: center;
-        }
-        p {
-            line-height: 1.6;
-        }
-        #hello{
-
-        /*    animation:myanim 5s linear infinite; <!---short hand--> */
-            animation-name: myanim;
-            animation-duration: 2s;
-            animation-iteration-count: infinite;
-        }
-        @keyframes myanim {
-            0% {color: red; font-size: 20px;}
-            25% {color: blue; font-size: 30px;}
-            50% {color: green; font-size: 40px;}
-            75% {color: orange; font-size: 30px;}
-            100% {color: red; font-size: 20px;}
-        }
-        @keyframes slidein {
-            0% {
-                color:blue;
-            transform: translate();            }
-
-            100% {
-                color: red;
-                transform: translateX(600px);
-            }
-        }   
-        </style>
 </head>
 <body>
-    <div class="container">
-        <h1 id="hello">Hello World</h1>
-        <p>This is a simple webpage demonstrating CSS animations. The text above changes color and size in a smooth animation loop.</p>
-    </div>
+<h1>Introduction to javascript</h1>
+<button id="mybtn" onclick="cusor()">Click me</button>
+<button>click to change h1 clour</button>
+<script src="external.js"></script>
 </body>
 </html>
