@@ -1,0 +1,20 @@
+/* selector{
+    property: value;
+} */
+
+#box{
+    border: 1px solid rgb(111, 211, 17);
+    background-color: aliceblue;
+    padding: 20px;
+    margin: 15px;
+}
+#urie{
+    color: rgb(red, green, blue);
+}
+#About{
+    color: blue;
+}
+.cusor{ <!-- class selector -->
+    color: saddlebrown;
+    font-family: Arial, Helvetica, sans-serif;
+}
